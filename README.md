@@ -1,6 +1,6 @@
 # deck
 
-This module generates and exports an array of 50 objects (no jokers) with the follwoing signature:
+This module generates and exports an array of 50 objects (no jokers) with the followoing signature:
 
 ```javascript
 {
