@@ -27,7 +27,7 @@ let makeCard = (index) => {
   let value = nameIndex < 10 ? nameIndex + 1 : 10
   let name = names[nameIndex][0]
   let suit = suits[suitIndex][0]
-  let code = names[nameIndex][1] + suits[suitIndex][1]
+  let id = names[nameIndex][1] + suits[suitIndex][1]
   return {
     index,
     nameIndex,
@@ -35,7 +35,7 @@ let makeCard = (index) => {
     value,
     name,
   	suit,
-  	code,
+  	id,
   }
 }
 
