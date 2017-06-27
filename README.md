@@ -1,6 +1,18 @@
 # deck
 
-This module generates and exports an array of 50 objects (no jokers). Each one has the following properties:
+This module generates and exports an array of 50 objects (no jokers) with this signature:
+
+```javascript
+{
+  index,
+  nameIndex,
+  suitIndex,
+  value,
+  name,
+  suit,
+  id
+}
+```
 
 **index:** A number from `0` to `49`.
 
