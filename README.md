@@ -2,25 +2,15 @@
 
 This module generates and exports an array of 50 objects (no jokers). Each one has the following properties:
 
-## index
+**index:** A number from 0 to 49.
 
-A number from 0 to 49.
+**nameIndex:** A number from 0 to 12.
 
-## nameIndex
+**suitIndex:** A number from 0 to 3.
 
-A number from 0 to 12.
+**value:** A number from 1 to 10. Note there are 16 cards with a value of 10.
 
-## suitIndex
-
-A number from 0 to 3.
-
-## value 
-
-A number from 1 to 10. Note there are 16 cards with a value of 10.
-
-## name
-
-One of the following strings:
+**name:** One of the following strings:
 
 - `ace`
 - `one` through `ten`
@@ -28,15 +18,11 @@ One of the following strings:
 - `queen`
 - `king`
 
-## suit
-
-One of the following strings:
+**suit:** One of the following strings:
 
 - `spades`
 - `clubs`
 - `hearts`
 - `diamonds`
 
-## code
-
-A unique two-character identifier. The first character stands for the name, and the second for the suit. For example, `as`, `4c`, and `qh`.
+**id:** A unique two-character identifier. The first character stands for the name, and the second for the suit. For example, `as`, `4c`, and `qh`.
