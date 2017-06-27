@@ -2,13 +2,13 @@
 
 This module generates and exports an array of 50 objects (no jokers). Each one has the following properties:
 
-**index:** A number from 0 to 49.
+**index:** A number from `0` to `49`.
 
-**nameIndex:** A number from 0 to 12.
+**nameIndex:** A number from `0` to `12`.
 
-**suitIndex:** A number from 0 to 3.
+**suitIndex:** A number from `0` to `3`.
 
-**value:** A number from 1 to 10. Note there are 16 cards with a value of 10.
+**value:** A number from `1` to `10`. Note there are 16 cards with a value of 10.
 
 **name:** One of the following strings:
 
