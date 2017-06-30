@@ -1,5 +1,7 @@
 # deck
 
+## Default Behavior
+
 This module generates and exports an array of 50 objects (no jokers) with the followoing signature:
 
 ```javascript
@@ -38,3 +40,8 @@ This module generates and exports an array of 50 objects (no jokers) with the fo
 - `diamonds`
 
 **id:** A unique two-character identifier. The first character stands for the name, and the second for the suit. For example, `as`, `4c`, `qh`.
+
+
+## Custom Deck
+
+(coming soon)
